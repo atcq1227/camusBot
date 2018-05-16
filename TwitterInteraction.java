@@ -12,9 +12,9 @@ public class TwitterInteraction {
 
 			ConfigurationBuilder cb = new ConfigurationBuilder();
 			cb.setDebugEnabled(true).setOAuthConsumerKey("c0hGLS1HRDNXEgYxcEaMJAeKk")
-					.setOAuthConsumerSecret("CyeIgFMhiIDyj7zkEsPkPHPa2ioNPryGzfW9eaI0WBBQrQNsfD")
+					.setOAuthConsumerSecret("")
 					.setOAuthAccessToken("912350203738558464-7NEKQmP1DM4bTo2qfje6IApmbAwlUoy")
-					.setOAuthAccessTokenSecret("akCklYY3XNmwZVwG5ilfhNUeSU8zb9m3LDUTXQDmmTWQf");
+					.setOAuthAccessTokenSecret("");
 			TwitterFactory tf = new TwitterFactory(cb.build());
 			twitter = tf.getInstance();
 
